@@ -619,6 +619,16 @@
             <field>WarningRemovalDate__c</field>
             <table>Account</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Antall_aktive_FIA_Saker__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Antall_avsluttede_FIA_Saker__c</field>
+            <table>Account</table>
+        </columns>
         <masterLabel>Accounts</masterLabel>
     </sections>
     <sections>
@@ -718,6 +728,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Type__c</field>
+            <table>Account.FIA_Satus__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Se_detaljer__c</field>
             <table>Account.FIA_Satus__r</table>
         </columns>
         <masterLabel>FIA Leveranser</masterLabel>

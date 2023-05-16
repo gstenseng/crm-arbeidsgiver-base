@@ -745,6 +745,58 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Antall_aktive_FIA_Saker__c</fieldItem>
+                <identifier>RecordAntall_aktive_FIA_Saker_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-b60f53bb-f499-4ae1-93c7-ee80f8a060cb</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Antall_avsluttede_FIA_Saker__c</fieldItem>
+                <identifier>RecordAntall_avsluttede_FIA_Saker_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-f3920a6c-0c54-4571-acc8-a066f72e66bd</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-b60f53bb-f499-4ae1-93c7-ee80f8a060cb</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-f3920a6c-0c54-4571-acc8-a066f72e66bd</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-f7af07bb-d55d-4557-9e7d-acc0f627487e</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.TAG_FiaCaseNr__c</fieldItem>
                 <identifier>RecordTAG_FiaCaseNr_cField</identifier>
             </fieldInstance>
@@ -834,6 +886,46 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-f7af07bb-d55d-4557-9e7d-acc0f627487e</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Aktive og tidligere leveranser</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>cacheAge</name>
+                    <value>1440</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>FIA Leveranser</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>reportFilter</name>
+                    <value>ACCOUNT_ID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>reportName</name>
+                    <value>IA_Leveranser_p_konto_I0c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showRefreshButton</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
@@ -870,7 +962,7 @@
                             <value>Status__c</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>NAME</value>
+                            <value>Se_detaljer__c</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
