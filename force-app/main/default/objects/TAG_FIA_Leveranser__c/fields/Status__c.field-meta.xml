@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ny</fullName>
+                <default>false</default>
+                <label>Ny</label>
+            </value>
+            <value>
+                <fullName>Vurderes</fullName>
+                <default>false</default>
+                <label>Vurderes</label>
+            </value>
+            <value>
+                <fullName>Aktiv</fullName>
+                <default>false</default>
+                <label>Aktiv</label>
+            </value>
+            <value>
+                <fullName>Levert</fullName>
+                <default>false</default>
+                <label>Levert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

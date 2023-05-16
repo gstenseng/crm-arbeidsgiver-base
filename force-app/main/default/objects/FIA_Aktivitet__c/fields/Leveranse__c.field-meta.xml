@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leveranse__c</fullName>
+    <externalId>false</externalId>
+    <label>Leveranse</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Oppfølgingssamtalen</fullName>
+                <default>false</default>
+                <label>Oppfølgingssamtalen</label>
+            </value>
+            <value>
+                <fullName>Tilretteleggingsplikt og medvirkningsplikt</fullName>
+                <default>false</default>
+                <label>Tilretteleggingsplikt og medvirkningsplikt</label>
+            </value>
+            <value>
+                <fullName>Videreutvikle sykefraværsrutiner</fullName>
+                <default>false</default>
+                <label>Videreutvikle sykefraværsrutiner</label>
+            </value>
+            <value>
+                <fullName>Enkel arbeidsmiljøkartlegging</fullName>
+                <default>false</default>
+                <label>Enkel arbeidsmiljøkartlegging</label>
+            </value>
+            <value>
+                <fullName>Psykisk helse</fullName>
+                <default>false</default>
+                <label>Psykisk helse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
