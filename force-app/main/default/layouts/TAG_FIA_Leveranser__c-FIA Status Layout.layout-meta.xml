@@ -38,6 +38,10 @@
                 <behavior>Readonly</behavior>
                 <field>Se_detaljer__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Antall_FIA_aktiviteter__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>

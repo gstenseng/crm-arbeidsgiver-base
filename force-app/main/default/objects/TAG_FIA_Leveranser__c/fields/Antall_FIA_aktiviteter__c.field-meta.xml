@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Antall_FIA_aktiviteter__c</fullName>
+    <externalId>false</externalId>
+    <label>Antall FIA aktiviteter</label>
+    <summaryForeignKey>FIA_Aktivitet__c.FIA_Leveranse__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

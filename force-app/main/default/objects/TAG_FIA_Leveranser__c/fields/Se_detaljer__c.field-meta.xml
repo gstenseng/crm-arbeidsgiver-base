@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Se_detaljer__c</fullName>
     <externalId>false</externalId>
-    <formula>Hyperlink((&quot;https://drive-energy-6126.scratch.lightning.force.com/lightning/r/TAG_FIA_Leveranser__c/&quot;+Id+&quot;/view&quot;),&quot;Se detaljer&quot;)</formula>
+    <formula>Hyperlink((&quot;https://nosoftware-ruby-6691.scratch.lightning.force.com/lightning/r/TAG_FIA_Leveranser__c/&quot;+Id+&quot;/view&quot;),&quot;Se detaljer&quot;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Detaljer</label>
     <required>false</required>
