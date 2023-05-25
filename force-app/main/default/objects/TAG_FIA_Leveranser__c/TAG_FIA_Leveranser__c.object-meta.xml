@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>FIA Leveranse</label>
+    <label>IA tjeneste (Fia)</label>
     <nameField>
         <label>FIA Status Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>FIA Leveranser</pluralLabel>
+    <pluralLabel>IA tjenester (Fia)</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
